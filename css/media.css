@@ -1,0 +1,464 @@
+@media (max-width: 1470px) {
+  #hero .hero-content {
+    /* align-items: center; */
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+  }
+
+  #hero .hero-content .hero-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  #hero .hero-content .hero-photo {
+    transform: rotate(0deg);
+    width: 100%;
+  }
+  #hero .hero-content .hero-photo:hover {
+    transform: translate(-2px, -2px);
+  }
+
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1270px) {
+  .container {
+    width: 95%;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .navbar .navbar-content ul {
+    display: none;
+  }
+
+  .navbar .navbar-content .subscribe {
+    display: none;
+  }
+
+  .navbar .navbar-content .logo {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 800;
+  }
+
+  .menu {
+    padding: 4px 2px;
+  }
+
+  .menu i {
+    font-size: 18px;
+  }
+
+  #hero .hero-content h2 {
+    font-size: 3.5rem;
+  }
+
+  #hero .hero-content .hero-text .content {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  #hero .hero-content .hero-text .btns {
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: flex-end; */
+    width: 100%;
+  }
+  #hero .hero-content .hero-text .btns .start,
+  #hero .hero-content .hero-text .btns .intro {
+    width: 100%;
+  }
+  #hero .hero-content .hero-text .btns .start > button {
+    width: 100%;
+  }
+
+  #hero .hero-content .hero-text .btns .intro > button {
+    width: 100%;
+  }
+  #authors .authors-cards {
+    /* background-color: tomato; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* padding-inline: 100px; */
+    /* background-color: #2a6ffb; */
+  }
+
+  #authors .authors-cards .card-item {
+    width: 50%;
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
+  }
+
+  #footer .footer-content .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 1050px) {
+  /* .container{
+    width: 98%;
+  } */
+
+  #latest-articles .latest-content {
+    flex-direction: column;
+  }
+  #latest-articles .latest-content .left-articles {
+    width: 100%;
+  }
+  #latest-articles .latest-content .right-articles {
+    width: 100%;
+  }
+  #latest-articles .latest-content .right-articles .trending-now,
+  #latest-articles .latest-content .right-articles .categories {
+    width: 100%;
+  }
+  #latest-articles .latest-content .left-articles .article {
+    flex-direction: column;
+  }
+  #authors .authors-cards {
+    /* background-color: tomato; */
+    flex-wrap: wrap;
+    /* width: 100%; */
+    justify-content: flex-start;
+    /* padding-inline: 100px; */
+    /* background-color: #2a6ffb; */
+  }
+
+  #authors .authors-cards .card-item {
+    width: 100%;
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
+  }
+  #community .community-content {
+    flex-direction: column;
+  }
+  #community {
+    padding-inline: 0px;
+  }
+  #community .container {
+    width: 95%;
+  }
+  #community .community-content .community-left .desc {
+    width: 100%;
+  }
+
+  #footer .footer-content .footer-top {
+    flex-wrap: wrap;
+  }
+  #footer .footer-content .footer-top .footer-logo {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #footer .footer-content .footer-top .footer-categories {
+    margin-right: 0;
+    width: 30%;
+  }
+
+  #footer .footer-content .footer-top .newsletter {
+    width: 70%;
+  }
+}
+
+@media (max-width: 770px) {
+  #latest-articles .latest-content .left-articles .article .article-info h4 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+  #latest-articles .latest-content .left-articles .article .article-info p {
+    font-size: 15px;
+    line-height: 25.25px;
+  }
+  #latest-articles
+    .latest-content
+    .left-articles
+    .article
+    .article-info
+    .article-details {
+    flex-direction: column;
+    font-size: 12px;
+  }
+  #latest-articles
+    .latest-content
+    .left-articles
+    .article
+    .article-info
+    .article-details
+    .article-dates {
+    flex-direction: column;
+    gap: 2px;
+  }
+  #latest-articles .latest-content .left-articles .article-title h3 {
+    font-size: 42px;
+  }
+
+  #latest-articles .latest-content .left-articles .article-title .fresh {
+    display: none;
+  }
+  #authors .authors-title h3 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  #authors .authors-title p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #community .community-title h3 {
+    font-size: 30px;
+  }
+  #community .community-content .community-left h4 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  #community .community-content .community-left .desc {
+    font-size: 15px;
+  }
+  #community .community-content .community-left .properties p {
+    font-size: 15px;
+  }
+  #community .community-content .community-left .join-btn button {
+    font-size: 18px;
+  }
+  #community .community-content .community-right h4 {
+    font-size: 25px;
+  }
+  #community .community-content .community-right .rebel-item blockquote {
+    font-size: 16px;
+  }
+  #community
+    .community-content
+    .community-right
+    .rebel-item
+    .profile
+    .profile-info
+    .name {
+    font-size: 16px;
+  }
+  #community .community-title::after {
+    left: 38%;
+  }
+
+  #footer .footer-content .footer-top .footer-logo {
+    width: 100%;
+  }
+
+  #footer .footer-content .footer-top .footer-categories {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #footer .footer-content .footer-top .newsletter {
+    width: 100%;
+  }
+  #footer {
+    padding-inline: 15px;
+  }
+  #footer .container {
+    width: 100%;
+  }
+  #footer .footer-content .footer-top .footer-logo .footer-title h4 {
+    font-size: 26px;
+  }
+
+  #footer .footer-content .footer-top .footer-logo p {
+    font-size: 15px;
+  }
+
+  #footer .footer-content .footer-top .footer-categories h4 {
+    font-size: 21px;
+  }
+
+  #footer .footer-content .footer-top .footer-categories ul li a {
+    font-size: 15px;
+  }
+  #footer .footer-content .footer-top .newsletter h4 {
+    font-size: 21px;
+  }
+
+  #footer .footer-content .footer-top .newsletter p {
+    font-size: 15px;
+  }
+
+  #footer .footer-content .footer-top .newsletter input {
+    padding: 15px;
+
+    font-size: 15px;
+  }
+  #footer .footer-content .footer-top .newsletter button {
+    padding: 15px;
+    font-size: 15px;
+  }
+  #footer .footer-content .footer-bottom .rights {
+    font-size: 15px;
+  }
+
+  #footer .footer-content .footer-bottom .terms a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #latest-articles .container {
+    width: 100%;
+  }
+  #latest-articles .latest-content .left-articles .article .article-info h4 {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  #latest-articles .latest-content .left-articles .article .article-info p {
+    font-size: 13px;
+    line-height: 21.25px;
+  }
+  #latest-articles
+    .latest-content
+    .left-articles
+    .article
+    .article-info
+    .article-details {
+    font-size: 10px;
+  }
+  #latest-articles .latest-content .left-articles .article-title h3 {
+    font-size: 36px;
+  }
+  #latest-articles .latest-content .left-articles .load-articles button {
+    font-size: 15px;
+  }
+  #latest-articles .latest-content .right-articles h4 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #latest-articles
+    .latest-content
+    .right-articles
+    .trending-now
+    .trending-item
+    span {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  #latest-articles
+    .latest-content
+    .right-articles
+    .trending-now
+    .trending-item
+    h5 {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  #latest-articles
+    .latest-content
+    .right-articles
+    .trending-now
+    .trending-item
+    p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  #latest-articles .latest-content .right-articles .categories div {
+    font-size: 12px;
+  }
+  #authors {
+    padding-inline: 20px;
+  }
+  #authors .authors-title h3 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 15px;
+  }
+
+  #authors .authors-title p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: oklch(0.439 0 0);
+    margin-bottom: 15px;
+  }
+  #authors .authors-cards .card-item h4 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  #authors .authors-cards .card-item .author-position {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  #authors .authors-cards .card-item p {
+    font-size: 12px;
+    line-height: 16px;
+    width: 100%;
+  }
+  #community .community-content {
+    padding: 10px;
+  }
+  #community .community-content .community-left h4 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  #community .community-content .community-left .desc {
+    font-size: 12px;
+    /* width: 100%; */
+  }
+  #community .community-content .community-left .properties p {
+    font-size: 12px;
+  }
+  #community .community-content .community-left .join-btn button {
+    font-size: 14px;
+  }
+
+  #community .community-content .community-right .rebel-item {
+    padding: 10px;
+  }
+  #community .community-content .community-right .rebel-item blockquote {
+    font-size: 14px;
+  }
+  #community .community-content .community-right .rebel-item .profile img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #community
+    .community-content
+    .community-right
+    .rebel-item
+    .profile
+    .profile-info
+    .name {
+    font-size: 14px;
+  }
+  #community
+    .community-content
+    .community-right
+    .rebel-item
+    .profile
+    .profile-info
+    p {
+    font-size: 12px;
+  }
+  #community .community-title::after {
+    left: 30%;
+  }
+   #footer .footer-content .footer-bottom .rights {
+    font-size: 10px;
+  }
+
+  #footer .footer-content .footer-bottom .terms a {
+    font-size: 10px;
+  }
+}
